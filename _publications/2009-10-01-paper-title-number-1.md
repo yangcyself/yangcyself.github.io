@@ -15,7 +15,7 @@ The goal is to train a hexpod learn to walk.
 ![](../images/hexpod1.gif)
 > locomotion control for robot to walk
 
-![](../images/hexpod2.gif)
+![](../images/hexpod2.png)
 > higher level control for robot to naviate
 
 [Download paper here](http://yangcyself.github.io/files/HexpodPaper.pdf)
