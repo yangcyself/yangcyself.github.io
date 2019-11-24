@@ -18,12 +18,6 @@ let $\sigma_i(i\geq0)$ represent $\sigma[x]=6-i$
 
 Base case when i = 0
 
-$$
-{{{\sigma_0(x)=6}\over{\langle x,\sigma_0 \rangle \Downarrow 6}}
-\langle 6\leq5,\sigma_0 \rangle  \Downarrow \text{false}}
-\over{\langle x\leq 5 ,\sigma_0 \rangle \Downarrow \text{false}
-\over \langle \text{while} x\leq5 \text{do}x:=1+1,\sigma_0 \rangle \Downarrow\sigma_0}
-$$
 
 Induction step
 
