@@ -12,3 +12,5 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
 
+  - title: "Study notes"
+    url: /notes/
