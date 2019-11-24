@@ -3,6 +3,9 @@ main:
   - title: "Repos"
     url: /repos/    
 
+  - title: "Study Notes"
+    url: /teaching/    
+
   - title: "CV"
     url: /cv/
 
