@@ -230,6 +230,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # notes
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _publications
   - scope:
       path: ""
