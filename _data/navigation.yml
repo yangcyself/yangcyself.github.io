@@ -4,7 +4,7 @@ main:
     url: /repos/    
 
   - title: "Study Notes"
-    url: /teaching/    
+    url: /notes/
 
   - title: "CV"
     url: /cv/
