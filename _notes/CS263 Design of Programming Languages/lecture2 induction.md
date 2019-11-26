@@ -1,3 +1,11 @@
+---
+# collection: notes
+title: lecture2 induction.md
+order: 1
+---
+
+This is a description of lecture1 operational semantics.
+
 # CUE
 - why does mathematical induction work
 - use induction to prove that when $\sigma(x)\leq6$, $\langle\text{while} x \leq 5 \text{do} x:=x+1 ,\sigma\rangle \Downarrow \sigma[x:=\sigma]$

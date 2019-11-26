@@ -1,3 +1,12 @@
+---
+# collection: notes
+title: lecture1 operational semantics
+order: 2
+---
+
+This is a description of lecture1 operational semantics.
+
+
 # CUE
 - concrete and abstract syntax 
 - big-step-operational semantics
