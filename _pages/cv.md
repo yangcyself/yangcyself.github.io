@@ -9,24 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-<table>
-    <tr>
-        <th>Name: 杨晨宇 Chenyu Yang</th>
-        <th rowspan="5"><img src="/images/yangcy-300x300.png" width="180" height="180" /></th>
-    </tr>
-    <tr>
-        <th>Birth of Date: 7/23/1998</th>
-    </tr>
-    <tr>
-        <th>Email: yangcyself@berkeley.edu</th>
-    </tr>
-    <tr>
-        <th>Cell: US:+1 510-697-6884 CN:+86 13520183356</th>
-    </tr>
-    <tr>
-        <th>Address： Shanghai Jiao Tong University No.800 Dongchuan Road, Shanghai 200240, China.</th>
-    </tr>
-</table>
+* **Name: 杨晨宇 Chenyu Yang**
+<!-- th rowspan="5"><img src="/images/yangcy-300x300.png" width="180" height="180" /></th -->
+* **Birth of Date: 7/23/1998**
+* **Email: yangcyself@berkeley.edu**
+* **Cell: US:+1 510-697-6884 CN:+86 13520183356**
+* **Address： Shanghai Jiao Tong University No.800 Dongchuan Road, Shanghai 200240, China.**
 
 
 # AREAS OF INTERESTS
@@ -104,13 +92,4 @@ PUBLICATIONS
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-
-
-TALKS
-======
-
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
