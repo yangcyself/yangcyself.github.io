@@ -9,51 +9,130 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+<table>
+    <tr>
+        <th>Name: 杨晨宇 Chenyu Yang</th>
+        <th rowspan="5"><img src="/images/yangcy-300x300.png" width="180" height="180" /></th>
+    </tr>
+    <tr>
+        <th>Birth of Date: 7/23/1998</th>
+    </tr>
+    <tr>
+        <th>Email: yangcyself@berkeley.edu</th>
+    </tr>
+    <tr>
+        <th>Cell: US:+1 510-697-6884 CN:+86 13520183356</th>
+    </tr>
+    <tr>
+        <th>Address： Shanghai Jiao Tong University No.800 Dongchuan Road, Shanghai 200240, China.</th>
+    </tr>
+</table>
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+# AREAS OF INTERESTS
 
-Publications
+- **Robotics**
+
+
+EDUCATION
+======
+
+<table frame=void>
+    <tr>
+        <th>
+        <ul style="padding-left:10px">
+        <li>School of electricity, Shanghai Jiao Tong University, Shanghai, China</li>
+        </ul>
+        <ul style="padding-left:40px">
+        <li>Major: Computer Science + Automation, Bachelor Engineering</li>
+        <li>GPA 3.9/4.3 ranking 4/93</li>
+        </ul>
+        </th>
+        <th>09/2016 to 07/2019</th>
+    </tr>
+    <tr>
+        <th>
+        <ul style="padding-left:10px">
+        <li>Zhiyuan College, Shanghai Jiao Tong University</li>
+        </ul>
+        <ul style="padding-left:40px">
+        <li>Zhiyuan Honors Program of Engineering (Top 5%)</li>
+        </ul>
+        </th>
+        <th>09/2016 to 07/2019</th>
+    </tr>
+    <tr>
+        <th><ul style="padding-left:10px"><li>Berkeley Global Access Discovery program</li></ul></th><th>08/2019 to present</th>
+    </tr>
+</table>
+
+
+STANDARD TESTS
+======
+
+* **TOEFL: 103/120**
+
+* **GRE: 332/330 (91%)**
+
+
+SKILLS
+======
+
+- **Programming: C/C++, Python, MATLAB**
+
+- **Robotic systems: ROS, v-rep**
+- **ML systems: TensorFlow, Pytorch**
+- **Modeling and analyzing control systems and design controllers**
+- **Basic parallel programming with MPI, OpenMP and CUDA.**
+- **Basic operations of building and managing a computing cluster.**
+
+
+
+# HONORS & AWARDS
+
+- **2017 Scholarship of Shanghai city 2%**
+- **Mathematical Contest in Modeling Honorable Mention**
+
+
+
+# LABORATORY EXPERIENCE
+
+- **Advanced Computer Architecture Institute, SJTU**
+  - Studied and carried out experiments about various machine learning tasks and hardware-based optimization.
+- **Ministry of Education (MOE) Key Lab of Scientific and Engineering Computing, SJTU**
+  - Studied and carried out experiments about reinforcement learning algorithms, legged robots, trajectory and locomotion planning algorithms.
+- **Mechanical Systems Control Lab, UC Berkeley**
+  - Carried out experiments about inverse reinforcement learning for self-driving cars.
+
+
+
+# SELECTED PROJECTS
+
+- **Inverse reinforcement learning for human driving behavior**
+  - Use inverse reinforcement learning algorithms to learn the difference in driving behavior under different scenarios.
+- **Algorithm Designing for Trajectory Optimization**
+  - Use reinforcement learning algorithms to guide the trajectory optimization algorithms of a hexapod.
+- **RL based Controller for Six-Legged Robot**
+- **A C-class-conference paper**
+  - The first writer for this work.
+  - Use reinforcement learning algorithms to train a controller for both robotic locomotion planning and trajectory planning.
+  - GitHub link: https://github.com/yangcyself/Hexpod_locomotion
+- **2019 ASC Student Supercomputer Challenge**
+  - Analyzed and Optimized the Community Earth System Model with SJTU HPC team as an inexperienced team member.
+
+
+
+PUBLICATIONS
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+
+
+TALKS
 ======
+
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
