@@ -37,34 +37,12 @@ redirect_from:
 EDUCATION
 ======
 
-<table frame=void>
-    <tr>
-        <th>
-        <ul style="padding-left:10px">
-        <li>School of electricity, Shanghai Jiao Tong University, Shanghai, China</li>
-        </ul>
-        <ul style="padding-left:40px">
-        <li>Major: Computer Science + Automation, Bachelor Engineering</li>
-        <li>GPA 3.9/4.3 ranking 4/93</li>
-        </ul>
-        </th>
-        <th>09/2016 to 07/2019</th>
-    </tr>
-    <tr>
-        <th>
-        <ul style="padding-left:10px">
-        <li>Zhiyuan College, Shanghai Jiao Tong University</li>
-        </ul>
-        <ul style="padding-left:40px">
-        <li>Zhiyuan Honors Program of Engineering (Top 5%)</li>
-        </ul>
-        </th>
-        <th>09/2016 to 07/2019</th>
-    </tr>
-    <tr>
-        <th><ul style="padding-left:10px"><li>Berkeley Global Access Discovery program</li></ul></th><th>08/2019 to present</th>
-    </tr>
-</table>
+* **School of electricity, Shanghai Jiao Tong University, Shanghai, China &ensp;&ensp;&ensp;&ensp; 09/2016 to 07/2019**
+  * Major: Computer Science + Automation, Bachelor Engineering
+  * GPA 3.9/4.3 ranking 4/93
+* **Zhiyuan College, Shanghai Jiao Tong University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 09/2016 to 07/2019**
+  * Zhiyuan Honors Program of Engineering (Top 5%)
+* **Berkeley Global Access Discovery program &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 08/2019 to present**
 
 
 STANDARD TESTS
