@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-* **Name: 杨晨宇 Chenyu Yang**
+<h1 style="text-align:center">杨晨宇 Chenyu Yang</h1>
 <!-- th rowspan="5"><img src="/images/yangcy-300x300.png" width="180" height="180" /></th -->
 * **Birth of Date: 7/23/1998**
 * **Email: yangcyself@berkeley.edu**
