@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Chenyu Yang's personal page"
+# title: "Chenyu Yang's personal page"
 excerpt: "About Chenyu Yang"
 author_profile: true
 redirect_from: 
