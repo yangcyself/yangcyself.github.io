@@ -10,7 +10,7 @@ redirect_from:
 
 ## Academic
 
-I have some research experience in several fields(Each has been at least a main theme of one semester). But my true love is in robotics<sup>[1](#myfootnote1)</sup>
+I have some research experience in several fields(Each has been at least a main focus of one semester). But my true love is in robotics<sup>[1](#myfootnote1)</sup>
 
 - Performance optimization for neural networks.
   - Focused on neural network pruning and down-sampling in [Shanghai Jiao Tong Advanced Computer Architecture Lab](http://acalab.sjtu.edu.cn/CN/Teacher.aspx?infolb=3&flag=3)
