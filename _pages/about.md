@@ -14,12 +14,12 @@ redirect_from:
 
 I have some research experience in several fields(Each has been at least a main theme of one semester). But my true love is in robotics<sup>[1](#myfootnote1)</sup>
 
-- Performamce optimization for neural networks.
-  - Focused on neural network prunning and downsampling in [Shanghai Jiao Tong Advanced Computer Architecture Lab](http://acalab.sjtu.edu.cn/CN/Teacher.aspx?infolb=3&flag=3)
+- Performance optimization for neural networks.
+  - Focused on neural network pruning and down-sampling in [Shanghai Jiao Tong Advanced Computer Architecture Lab](http://acalab.sjtu.edu.cn/CN/Teacher.aspx?infolb=3&flag=3)
 - Inverse reinforcement learning of driving behavior
   - Conducted projects in [Berkeley Mechanical Systems Control Lab](https://msc.berkeley.edu/research/autonomous-vehicle.html)
 - Motion control of legged robotics
-  - Published a little [paper](https://yangcyself.github.io/publication/HexpodPaper) of RL with a hexpod
+  - Published a little [paper](https://yangcyself.github.io/publication/HexpodPaper) of RL with a hexapod
 
 
 ## Open Source Community
@@ -28,6 +28,6 @@ I am proficient at developing in python and good at C/C++ and MATLAB. I think I 
 
 I will be very happy to contribute to Open Source projects, but I haven't found one.
 
-><a name="roboticsFN">1</a>: Specially, I like legged robotics, controlling their actions like walking, running and jumping
+><a name="roboticsFN">1</a>: Specifically, I like legged robotics, controlling their actions like walking, running and jumping
 
 
