@@ -1,14 +1,12 @@
 ---
 permalink: /
-# title: "Chenyu Yang's personal page"
+title: "ABOUT ME"
 excerpt: "About Chenyu Yang"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-# ABOUT ME
 
 ## Academic
 
