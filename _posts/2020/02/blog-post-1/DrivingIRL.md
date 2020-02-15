@@ -1,11 +1,7 @@
 ---
-title: 'Future Blog Post'
-date: 2020-02-15
-permalink: /posts/2020/02/blog-post-1/
-tags:
-  - cool posts
-  - category1
-  - category2
+# collection: notes
+title: lecture1 operational semantics
+order: 1
 ---
 
 # Application and Algorithm of Inverse Reinforcement Learning(IRL) in self-driving car
