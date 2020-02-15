@@ -1,8 +1,8 @@
 ---
-title: "Simple NN frameWork Based on C++"
+title: "Slip Control on planar RABBIT"
 collection: repos
 permalink: /publication/SlipControl
-excerpt: 'This is the course project for machine learning. I choose to implement it in C++ for fun'
+excerpt: 'This is the course project for Legged Robotics, we designed a controller to prevent slipping on a slippery surface of a double legged robot'
 repodate: 2019-06-16
 
 ---
