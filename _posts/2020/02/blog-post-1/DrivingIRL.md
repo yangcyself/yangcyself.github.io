@@ -27,23 +27,67 @@ Features are human defined characteristics of the trajectory. For example the `a
 
 In the projects I participated in, we assume the Cost function is some linear combination of the features. Thus, each feature has a weight corresponding to it. Note that this assumption also made it important for feature engineering(`L2_a_lon` is quite different from `L1_a_lon`).
 
-A tricky problem of the IRL is how to judge the algorithm actually learned something. The learning goal is to **match the feature counts** of the human trajectories and predicted trajectories.
+A tricky problem of the IRL is how to judge the algorithm actually learned something. One common learning goal in machine learning is to maximize the log likelihood of the expert trajectories. So is in our task. When showing off the algorithms, some paper uses matching the feature counts of the human trajectories and predicted trajectories. In the formulation below, the $\tilde{\boldsymbol{f}}$ is the feature count of the expert trajectory.
 $$
 E_{P(\zeta | \theta)}[\boldsymbol{f}]=\tilde{\boldsymbol{f}}
 $$
 
 
-To compute the $E$ in the above equation, the max entropy principle is often used:
+To compute the $E$ in the above equation, the [max entropy principle][MaxEntro] is often used:
 $$
-P(\zeta | \theta)=\frac{1}{z} e^{-\theta^{T}} f(\zeta)
+P(\zeta | \theta)=\frac{1}{Z} e^{-\theta^{T}f(\zeta)} 
+$$
+Where the $Z$ term is the normalization term, making the probability sum to 1.
+$$
+Z = \int e^{-\theta^{T} f(\zeta)} d \zeta
 $$
 
-> If you are curious about the assumptions behind the learning gaol and the max entropy principle, please check [background understanding](#background-understanding) section
+> If you are curious about the assumptions behind the learning gaol and the max entropy principle, please check [background understanding](#Background-understanding) section
 
 ## Learning algorithms
 
+In the previous section, the hardest problem is calculation of the probability of the trajectory. To be accurate, the problem is about how to approximate the normalization term $Z$
+
+$$
+P(\tilde{\zeta} | \theta)=\frac{e^{-\theta^{T} f(\tilde{\zeta})}}{\int e^{-\theta^{T} f(\zeta) d \zeta} d \zeta}
+$$
+
+[Continues Inverse Optimal Control][CIOC] fit the integral locally as an integral of gaussian, and have. 
+$$
+\mathcal{L}=-\frac{1}{2} g^{T} H^{-1} g+\frac{1}{2} \log |H|-\frac{d \zeta}{2} \log 2 \pi
+$$
+It uses the local gradient and hessian to compute the shape of the gaussian, so the paper claims its algorithm "removes the assumption that the expert demonstrations are globally optimal"
+
+With this approximation, the algorithm can directly use learning algorithms to maximize the approximated log likelihood and train weights.
+
+[Optimization IRL][Opt-IRL] calculates the term $Z$ more straight forward. It substitutes the likelihood of an optimal trajectory for the integral of all posible trajectories. The optimal trajectory is get by solving the optimization problem using the weights.
+
+The paper found that the gradient of the experts' log likelihood is a very simple form:
+
+$$
+\mathrm{g}=E_{P(\zeta | \theta)}[f]-\tilde{f}
+$$
+
+Thus, their algorithm uses gradient descent to train the weights, where the $E_{P(\zeta | \theta)}[f]$ is approximated by the feature count of the optimized trajectory.
 
 
-## background understanding
+The algorithm we used in our projects is similar to [Optimization IRL][Opt-IRL], by approximating the expected feature count $E_{P(\zeta | \theta)}[f]$ with an averaged feature count from a bunch of sampled trajectories. Human priories are integrated into the trajectory sampler so that the sampler covers the space of high probability trajectories. I might introduce more here after the paper get published ^_^.
+
+## Background understanding
+
+One assumption in the framework of IRL is that the trajectories with same costs have same probability. And we want to constraint on the expected feature count tobe equal to the expert feature count. Thus, the form of maxium entropy is almost there if we have the optimization problem of the following form.
+
+$$
+\min_{p_{i}} \sum_{i} p_{i} \log p_{i} \\
+\begin{aligned}
+\text{s.t.} &   \sum_{i} r_{i}  p_{i} &= \hat{r} \\
+   & \sum_{i} p_{i}  &=1
+\end{aligned}
+$$
 
 # References
+[CIOC]: Kim, D., Di Carlo, J., Katz, B., Bledt, G., & Kim, S. (2019). Highly Dynamic Quadruped Locomotion via Whole-Body Impulse Control and Model Predictive Control. Retrieved from http://arxiv.org/abs/1909.06586
+
+[Opt-IRL]: Kuderer, M., Gulati, S., & Burgard, W. (2015). Learning driving styles for autonomous vehicles from demonstration. Proceedings - IEEE International Conference on Robotics and Automation, 2015-June(June), 2641–2646. https://doi.org/10.1109/ICRA.2015.7139555
+
+[MaxEntro]: Dunn, A. M., Hofmann, O. S., Waters, B., & Witchel, E. (2011). Cloaking malware with the trusted platform module. Proceedings of the 20th USENIX Security Symposium.
