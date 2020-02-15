@@ -13,7 +13,7 @@ I did some projects about self-driving car in the [MSC](https://yangcyself.githu
 
 ## Background in self-driving car
 
-A good self-driving car has to ensure two aspects: comfort to passenger, and etiquette in Interaction, and most importantly safety. The first two espects requires a similar driving style to a human driver, and the last two need the car to predict the human drivers' behaviors. Thus, the essence in these problems is learning the behaviors from human, which is the topic of IRL. In the scenerio of self-driving car, some people post the problems as optimial control instead of reinforcement learning by ignoring the probabilistics in the transition of the system. So, some related works are named as Inverse Optimal Control(IOC).
+A good self-driving car has to ensure two aspects: comfort to passenger, and etiquette in Interaction, and most importantly safety. The first two aspects requires a similar driving style to a human driver, and the last two need the car to predict the human drivers' behaviors. Thus, the essence in these problems is learning the behaviors from human, which is the topic of IRL. In the scenario of self-driving car, some people post the problems as optimal control instead of reinforcement learning by ignoring the probabilistic in the transition of the system. So, some related works are named as Inverse Optimal Control(IOC).
 
 To future abstract the problem of self-driving, we only study the trajectories of the car and have the following notations.
 
@@ -23,7 +23,7 @@ To future abstract the problem of self-driving, we only study the trajectories o
 - Weights: $\theta \in R^{k}$
 - Cost(reward): $\theta^{T} \boldsymbol{f}(\zeta)$
 
-Features are human defined characteristics of the trajectory. For example the `a_lon`: longitunal accleration of the whole trajectory(The L2 norm of the accleration at each time point). For convinence, we let the features to represent an aspect of "cost" of the trajectory, so that the weights can have equal signs.
+Features are human defined characteristics of the trajectory. For example the `a_lon`: longitudinal acceleration of the whole trajectory(The L2 norm of the acceleration at each time point). For convenience, we let the features to represent an aspect of "cost" of the trajectory, so that the weights can have equal signs.
 
 In the projects I participated in, we assume the Cost function is some linear combination of the features. Thus, each feature has a weight corresponding to it. Note that this assumption also made it important for feature engineering(`L2_a_lon` is quite different from `L1_a_lon`).
 
@@ -42,7 +42,7 @@ $$
 Z = \int e^{-\theta^{T} f(\zeta)} d \zeta
 $$
 
-> If you are curious about the assumptions behind the learning gaol and the max entropy principle, please check [background understanding](#Background-understanding) section
+> If you are curious about the assumptions behind the learning goal and the max entropy principle, please check [background understanding](#Background-understanding) section
 
 ## Learning algorithms
 
@@ -60,7 +60,7 @@ It uses the local gradient and hessian to compute the shape of the gaussian, so 
 
 With this approximation, the algorithm can directly use learning algorithms to maximize the approximated log likelihood and train weights.
 
-[Optimization IRL][Opt-IRL] calculates the term $Z$ more straight forward. It substitutes the likelihood of an optimal trajectory for the integral of all posible trajectories. The optimal trajectory is get by solving the optimization problem using the weights.
+[Optimization IRL][Opt-IRL] calculates the term $Z$ more straight forward. It substitutes the likelihood of an optimal trajectory for the integral of all possible trajectories. The optimal trajectory is get by solving the optimization problem using the weights.
 
 The paper found that the gradient of the experts' log likelihood is a very simple form:
 
@@ -75,7 +75,7 @@ The algorithm we used in our projects is similar to [Optimization IRL][Opt-IRL],
 
 ## Background understanding
 
-One assumption in the framework of IRL is that the trajectories with same costs have same probability. And we want to constraint on the expected feature count tobe equal to the expert feature count. Thus, the form of maxium entropy is almost there if we have the optimization problem of the following form.
+One assumption in the framework of IRL is that the trajectories with same costs have same probability. And we want to constraint on the expected feature count to be equal to the expert feature count. Thus, the form of maximum entropy is almost there if we have the optimization problem of the following form.
 
 $$
 \min_{p_{i}} \sum_{i} p_{i} \log p_{i} \\
