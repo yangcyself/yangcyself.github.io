@@ -2,7 +2,7 @@
 title: "Sim-to-Real: Designing Locomotion Controller for Six-Legged Robot"
 collection: publications
 permalink: /publication/HexpodPaper
-#excerpt: 'this is my first paper'
+#excerpt: 'This is my first paper.'
 date: 2019-07-29
 venue: 'ieee-cyber'
 # paperurl: 'http://yangcyself.github.io/files/HexpodPaper.pdf'
