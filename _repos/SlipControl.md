@@ -20,7 +20,7 @@ The gif comparing robot with our controller and without.
 Track the reference joint angle
 
 $$
-u_{P D}=-K_{P}\left(q-\hat{q}_{d e s}\right)-K_{D}\left(\dot{q}-\dot{\hat{q}}_{d e s}\right)
+u_{PD}=-K_{P}\left(q-\hat{q}_{des}\right)-K_{D}\left(\dot{q}-\dot{\hat{q}}_{des}\right)
 $$
 
 #### ETH's method
@@ -148,4 +148,4 @@ After computed one of the above cases, we have to check the unilateral constrain
 | 0.15 |  105, 0.6|   |   0.05,0.02  |walk long double stand 3/5|
 
 
-[RepoLink](https://github.com/yangcyself/TA_GaitDesign)
+[The Link To the Github Repository](https://github.com/yangcyself/TA_GaitDesign)
