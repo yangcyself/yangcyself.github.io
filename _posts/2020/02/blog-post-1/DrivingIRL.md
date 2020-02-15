@@ -33,7 +33,7 @@ E_{P(\zeta | \theta)}[\boldsymbol{f}]=\tilde{\boldsymbol{f}}
 $$
 
 
-To compute the $E$ in the above equation, the [max entropy principle][MaxEntro] is often used:
+To compute the $E$ in the above equation, the [^MaxEntro] is often used:
 $$
 P(\zeta | \theta)=\frac{1}{Z} e^{-\theta^{T}f(\zeta)} 
 $$
@@ -52,7 +52,7 @@ $$
 P(\tilde{\zeta} | \theta)=\frac{e^{-\theta^{T} f(\tilde{\zeta})}}{\int e^{-\theta^{T} f(\zeta) d \zeta} d \zeta}
 $$
 
-[Continues Inverse Optimal Control][CIOC] fit the integral locally as an integral of gaussian, and have. 
+[^CIOC] fit the integral locally as an integral of gaussian, and have. 
 $$
 \mathcal{L}=-\frac{1}{2} g^{T} H^{-1} g+\frac{1}{2} \log |H|-\frac{d \zeta}{2} \log 2 \pi
 $$
@@ -60,7 +60,7 @@ It uses the local gradient and hessian to compute the shape of the gaussian, so 
 
 With this approximation, the algorithm can directly use learning algorithms to maximize the approximated log likelihood and train weights.
 
-[Optimization IRL][Opt-IRL] calculates the term $Z$ more straight forward. It substitutes the likelihood of an optimal trajectory for the integral of all possible trajectories. The optimal trajectory is get by solving the optimization problem using the weights.
+[^Opt-IRL] calculates the term $Z$ more straight forward. It substitutes the likelihood of an optimal trajectory for the integral of all possible trajectories. The optimal trajectory is get by solving the optimization problem using the weights.
 
 The paper found that the gradient of the experts' log likelihood is a very simple form:
 
@@ -71,7 +71,7 @@ $$
 Thus, their algorithm uses gradient descent to train the weights, where the $E_{P(\zeta | \theta)}[f]$ is approximated by the feature count of the optimized trajectory.
 
 
-The algorithm we used in our projects is similar to [Optimization IRL][Opt-IRL], by approximating the expected feature count $E_{P(\zeta | \theta)}[f]$ with an averaged feature count from a bunch of sampled trajectories. Human priories are integrated into the trajectory sampler so that the sampler covers the space of high probability trajectories. I might introduce more here after the paper get published ^_^.
+The algorithm we used in our projects is similar to [^Opt-IRL], by approximating the expected feature count $E_{P(\zeta | \theta)}[f]$ with an averaged feature count from a bunch of sampled trajectories. Human priories are integrated into the trajectory sampler so that the sampler covers the space of high probability trajectories. I might introduce more here after the paper get published ^_^.
 
 ## Background understanding
 
@@ -86,8 +86,8 @@ $$
 $$
 
 # References
-[CIOC]: Kim, D., Di Carlo, J., Katz, B., Bledt, G., & Kim, S. (2019). Highly Dynamic Quadruped Locomotion via Whole-Body Impulse Control and Model Predictive Control. Retrieved from http://arxiv.org/abs/1909.06586
+[^CIOC]: Kim, D., Di Carlo, J., Katz, B., Bledt, G., & Kim, S. (2019). Highly Dynamic Quadruped Locomotion via Whole-Body Impulse Control and Model Predictive Control. Retrieved from http://arxiv.org/abs/1909.06586
 
-[Opt-IRL]: Kuderer, M., Gulati, S., & Burgard, W. (2015). Learning driving styles for autonomous vehicles from demonstration. Proceedings - IEEE International Conference on Robotics and Automation, 2015-June(June), 2641–2646. https://doi.org/10.1109/ICRA.2015.7139555
+[^Opt-IRL]: Kuderer, M., Gulati, S., & Burgard, W. (2015). Learning driving styles for autonomous vehicles from demonstration. Proceedings - IEEE International Conference on Robotics and Automation, 2015-June(June), 2641–2646. https://doi.org/10.1109/ICRA.2015.7139555
 
-[MaxEntro]: Dunn, A. M., Hofmann, O. S., Waters, B., & Witchel, E. (2011). Cloaking malware with the trusted platform module. Proceedings of the 20th USENIX Security Symposium.
+[^MaxEntro]: Dunn, A. M., Hofmann, O. S., Waters, B., & Witchel, E. (2011). Cloaking malware with the trusted platform module. Proceedings of the 20th USENIX Security Symposium.
