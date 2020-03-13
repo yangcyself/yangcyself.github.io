@@ -63,11 +63,32 @@ SKILLS
 
 # LABORATORY EXPERIENCE
 
-- **Advanced Computer Architecture Institute, SJTU**
+**Dynamic Legged Manipulation of a Ball by Mini Cheetah Through Multi-Contact Optimization** Dec. 2019 - Mar. 2020 
+- Conducted as Intern project in [**Hybrid Robotics Lab**](https://hybrid-robotics.berkeley.edu/), UC Berkeley. 
+Supervised by [Prof. **Koushil Sreenath**](https://hybrid-robotics.berkeley.edu/koushil)
+
+- Implemented a controller and simulation environment of Mini Cheetah manipulating a ball.
+- Achieved good performance than baseline.
+- **First author** of the paper of the work submitted to **IROS 2020**
+
+
+**Human Driving Behavior Understanding with IRL** Aug. 2019 - Feb. 2020
+- Conducted as Intern project in [**Mechanical Systems Control Lab**](https://msc.berkeley.edu/), UC Berkeley. 
+Supervised by [Prof. **Masayoshi Tomizuka**](https://msc.berkeley.edu/people/tomizuka.html)
+
+- Implemented a framework to learn rich and diverse human driving behavior with IRL.
+- Achieved good prediction performance on real human driving behavior
+- Analyzed difference of driver decision under different scenarios
+- Fourth author of the paper of the work submitted to **RAL 2020**
+
+
+**Advanced Computer Architecture Institute, SJTU**
   - Studied and carried out experiments about various machine learning tasks and hardware-based optimization.
-- **Ministry of Education (MOE) Key Lab of Scientific and Engineering Computing, SJTU**
+  
+**Ministry of Education (MOE) Key Lab of Scientific and Engineering Computing, SJTU**
   - Studied and carried out experiments about reinforcement learning algorithms, legged robots, trajectory and locomotion planning algorithms.
-- **Mechanical Systems Control Lab, UC Berkeley**
+
+**Mechanical Systems Control Lab, UC Berkeley**
   - Carried out experiments about inverse reinforcement learning for self-driving cars.
 
 
