@@ -38,7 +38,7 @@ STANDARD TESTS
 
 * **TOEFL: 103/120**
 
-* **GRE: 332/330 (91%)**
+* **GRE: 332/340 (91%)**
 
 
 SKILLS
