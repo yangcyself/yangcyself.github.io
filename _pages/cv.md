@@ -69,7 +69,7 @@ Supervised by [Prof. **Koushil Sreenath**](https://hybrid-robotics.berkeley.edu/
 
 - Implemented a controller and simulation environment of Mini Cheetah manipulating a ball.
 - Achieved good performance than baseline.
-- **First author** of the paper of the work submitted to **IROS 2020**
+- **First author** of the paper of the work published at **IROS 2020**
 
 
 **Human Driving Behavior Understanding with IRL** Aug. 2019 - Feb. 2020
@@ -79,7 +79,8 @@ Supervised by [Prof. **Masayoshi Tomizuka**](https://msc.berkeley.edu/people/tom
 - Implemented a framework to learn rich and diverse human driving behavior with IRL.
 - Achieved good prediction performance on real human driving behavior
 - Analyzed difference of driver decision under different scenarios
-- Fourth author of the paper of the work submitted to **RAL 2020**
+- Fourth author of the paper of the [work published at **RAL 2020**](https://arxiv.org/abs/2006.13704)
+- Helped in experiments of a [paper published at **ICRA2020**](https://ras.papercept.net/proceedings/ICRA20/0320.pdf)
 
 
 **Advanced Computer Architecture Institute, SJTU**
