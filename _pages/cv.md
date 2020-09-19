@@ -27,7 +27,7 @@ EDUCATION
 
 * **School of electricity, Shanghai Jiao Tong University, Shanghai, China &ensp;&ensp;&ensp;&ensp; 09/2016 to 07/2019**
   * Major: Computer Science + Automation, Bachelor Engineering
-  * GPA 3.9/4.3 ranking 4/93
+  * GPA 3.9/4.3 ranking 2/93
 * **Zhiyuan College, Shanghai Jiao Tong University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 09/2016 to 07/2019**
   * Zhiyuan Honors Program of Engineering (Top 5%)
 * **Berkeley Global Access Discovery program &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 08/2019 to present**
