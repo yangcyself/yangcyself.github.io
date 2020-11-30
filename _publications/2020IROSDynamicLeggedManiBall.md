@@ -2,7 +2,7 @@
 title: "Dynamic Legged Manipulation of a Ball by Mini Cheetah Through Multi-Contact Optimization"
 collection: publications
 permalink: /publication/2020IROSDynamicLeggedManiBall
-date: 2020-10
+date: "Oct. 2020"
 venue: 'IROS2020'
 # paperurl: 'http://yangcyself.github.io/files/HexpodPaper.pdf'
 citation: 'Chenyu Yang, Bike Zhang*, Jun Zeng, Ayush Agrawal, Sreenath Koushil, "Dynamic Legged Manipulation of a Ball by Mini Cheetah Through Multi-Contact Optimization"'
