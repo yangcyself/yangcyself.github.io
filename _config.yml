@@ -85,7 +85,7 @@ author:
   bio              : "Student of Computer science + Automation at Shanghai Jiao Tong University"
   location         : "Shanghai, China"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   googlescholar    : # "http://yourfullgooglescholarurl.com"
   email            :
   researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
@@ -106,7 +106,7 @@ author:
   orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : "https://stackoverflow.com/users/10324633/yangcy"
+  stackoverflow    : "https://stackoverflow.com/u/10324633"
   steam            :
   tumblr           :
   twitter          : 
